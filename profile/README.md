@@ -3,8 +3,8 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zozozoeee&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zozozoeee&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=boyreau&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=boyreau&locale=en&hide_title=false&count_private=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
 ###
@@ -35,8 +35,8 @@
 ###
 
 <div align="left">
-  <img src="https://img.shields.io/static/v1?message=Codeberg&logo=codeberg&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="codeberg logo"  />
-  <img src="https://img.shields.io/static/v1?message=ProtonMail&logo=protonmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="proton mail logo"  />
+  <img src="https://img.shields.io/static/v1?message=Codeberg&logo=codeberg&label=&color=4793CC&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="codeberg logo"  />
+  <img src="https://img.shields.io/static/v1?message=ProtonMail&logo=protonmail&label=&color=6D4AFF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="proton mail logo"  />
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
 </div>
 
@@ -45,3 +45,26 @@
 <br clear="both">
 
 ###
+```mermaid
+---
+title: "My super-well-designed Ansible mess"
+---
+%%{ init: { "flowchart": { "curve": "bumpX" } } }%%
+flowchart LR
+	%% Start of the playbook './playbook.yaml'
+	playbook_93fbe4a3("./playbook.yaml")
+		%% Start of the play 'play #1 (Gitea personnal instance): 1'
+		play_2c7025d6["play #1 (Gitea personnal instance): 1"]
+		style play_2c7025d6 stroke:#5fc606,fill:#5fc606,color:#ffffff
+		playbook_93fbe4a3 --> |"1"| play_2c7025d6
+		linkStyle 0 stroke:#5fc606,color:#5fc606
+			%% Start of the role '[role] gitea'
+			play_2c7025d6 --> |"1 "| role_44707493
+			linkStyle 1 stroke:#5fc606,color:#5fc606
+			role_44707493(["[role] gitea"])
+			style role_44707493 fill:#5fc606,color:#ffffff,stroke:#5fc606
+			%% End of the role '[role] gitea'
+		%% End of the play 'play #1 (Gitea personnal instance): 1'
+	%% End of the playbook './playbook.yaml'
+
+```
