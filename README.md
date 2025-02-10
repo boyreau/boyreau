@@ -45,3 +45,26 @@
 <br clear="both">
 
 ###
+```mermaid
+---
+title: "My super-well-designed Ansible mess"
+---
+%%{ init: { "flowchart": { "curve": "bumpX" } } }%%
+flowchart LR
+	%% Start of the playbook './playbook.yaml'
+	playbook_14635807("./playbook.yaml")
+		%% Start of the play 'play #1 (Gitea personnal instance): 1'
+		play_8f8a72d1["play #1 (Gitea personnal instance): 1"]
+		style play_8f8a72d1 stroke:#347098,fill:#347098,color:#ffffff
+		playbook_14635807 --> |"1"| play_8f8a72d1
+		linkStyle 0 stroke:#347098,color:#347098
+			%% Start of the role '[role] gitea'
+			play_8f8a72d1 --> |"1 "| role_f2506d1b
+			linkStyle 1 stroke:#347098,color:#347098
+			role_f2506d1b(["[role] gitea"])
+			style role_f2506d1b fill:#347098,color:#ffffff,stroke:#347098
+			%% End of the role '[role] gitea'
+		%% End of the play 'play #1 (Gitea personnal instance): 1'
+	%% End of the playbook './playbook.yaml'
+
+```
