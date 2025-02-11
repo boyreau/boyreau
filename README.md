@@ -52,19 +52,25 @@ title: "My super-well-designed Ansible mess"
 %%{ init: { "flowchart": { "curve": "bumpX" } } }%%
 flowchart LR
 	%% Start of the playbook './playbook.yaml'
-	playbook_827e3f67("./playbook.yaml")
-		%% Start of the play 'play #1 (Gitea personnal instance): 1'
-		play_aa334636["play #1 (Gitea personnal instance): 1"]
-		style play_aa334636 stroke:#13b98e,fill:#13b98e,color:#ffffff
-		playbook_827e3f67 --> |"1"| play_aa334636
-		linkStyle 0 stroke:#13b98e,color:#13b98e
+	playbook_1085459a("./playbook.yaml")
+		%% Start of the play 'play #1 (Get init process name): 4'
+		play_83bd1f48["play #1 (Get init process name): 4"]
+		style play_83bd1f48 stroke:#7c6650,fill:#7c6650,color:#ffffff
+		playbook_1085459a --> |"1"| play_83bd1f48
+		linkStyle 0 stroke:#7c6650,color:#7c6650
+		%% End of the play 'play #1 (Get init process name): 4'
+		%% Start of the play 'play #2 (Gitea personnal instance): 1'
+		play_e782040d["play #2 (Gitea personnal instance): 1"]
+		style play_e782040d stroke:#02ca25,fill:#02ca25,color:#ffffff
+		playbook_1085459a --> |"2"| play_e782040d
+		linkStyle 1 stroke:#02ca25,color:#02ca25
 			%% Start of the role '[role] gitea'
-			play_aa334636 --> |"1 "| role_e0f7329d
-			linkStyle 1 stroke:#13b98e,color:#13b98e
-			role_e0f7329d(["[role] gitea"])
-			style role_e0f7329d fill:#13b98e,color:#ffffff,stroke:#13b98e
+			play_e782040d --> |"1 "| role_f8d9e89a
+			linkStyle 2 stroke:#02ca25,color:#02ca25
+			role_f8d9e89a(["[role] gitea"])
+			style role_f8d9e89a fill:#02ca25,color:#ffffff,stroke:#02ca25
 			%% End of the role '[role] gitea'
-		%% End of the play 'play #1 (Gitea personnal instance): 1'
+		%% End of the play 'play #2 (Gitea personnal instance): 1'
 	%% End of the playbook './playbook.yaml'
 
 ```
