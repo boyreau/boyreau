@@ -52,17 +52,17 @@ title: "My super-well-designed Ansible mess"
 %%{ init: { "flowchart": { "curve": "bumpX" } } }%%
 flowchart LR
 	%% Start of the playbook './playbook.yaml'
-	playbook_14635807("./playbook.yaml")
+	playbook_827e3f67("./playbook.yaml")
 		%% Start of the play 'play #1 (Gitea personnal instance): 1'
-		play_8f8a72d1["play #1 (Gitea personnal instance): 1"]
-		style play_8f8a72d1 stroke:#347098,fill:#347098,color:#ffffff
-		playbook_14635807 --> |"1"| play_8f8a72d1
-		linkStyle 0 stroke:#347098,color:#347098
+		play_aa334636["play #1 (Gitea personnal instance): 1"]
+		style play_aa334636 stroke:#13b98e,fill:#13b98e,color:#ffffff
+		playbook_827e3f67 --> |"1"| play_aa334636
+		linkStyle 0 stroke:#13b98e,color:#13b98e
 			%% Start of the role '[role] gitea'
-			play_8f8a72d1 --> |"1 "| role_f2506d1b
-			linkStyle 1 stroke:#347098,color:#347098
-			role_f2506d1b(["[role] gitea"])
-			style role_f2506d1b fill:#347098,color:#ffffff,stroke:#347098
+			play_aa334636 --> |"1 "| role_e0f7329d
+			linkStyle 1 stroke:#13b98e,color:#13b98e
+			role_e0f7329d(["[role] gitea"])
+			style role_e0f7329d fill:#13b98e,color:#ffffff,stroke:#13b98e
 			%% End of the role '[role] gitea'
 		%% End of the play 'play #1 (Gitea personnal instance): 1'
 	%% End of the playbook './playbook.yaml'
