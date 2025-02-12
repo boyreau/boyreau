@@ -52,25 +52,31 @@ title: "My super-well-designed Ansible mess"
 %%{ init: { "flowchart": { "curve": "bumpX" } } }%%
 flowchart LR
 	%% Start of the playbook './playbook.yaml'
-	playbook_1085459a("./playbook.yaml")
+	playbook_d8fd15ca("./playbook.yaml")
 		%% Start of the play 'play #1 (Get init process name): 4'
-		play_83bd1f48["play #1 (Get init process name): 4"]
-		style play_83bd1f48 stroke:#7c6650,fill:#7c6650,color:#ffffff
-		playbook_1085459a --> |"1"| play_83bd1f48
-		linkStyle 0 stroke:#7c6650,color:#7c6650
+		play_0607dc29["play #1 (Get init process name): 4"]
+		style play_0607dc29 stroke:#6f7755,fill:#6f7755,color:#ffffff
+		playbook_d8fd15ca --> |"1"| play_0607dc29
+		linkStyle 0 stroke:#6f7755,color:#6f7755
 		%% End of the play 'play #1 (Get init process name): 4'
 		%% Start of the play 'play #2 (Gitea personnal instance): 1'
-		play_e782040d["play #2 (Gitea personnal instance): 1"]
-		style play_e782040d stroke:#02ca25,fill:#02ca25,color:#ffffff
-		playbook_1085459a --> |"2"| play_e782040d
-		linkStyle 1 stroke:#02ca25,color:#02ca25
+		play_19a600b0["play #2 (Gitea personnal instance): 1"]
+		style play_19a600b0 stroke:#a0a923,fill:#a0a923,color:#ffffff
+		playbook_d8fd15ca --> |"2"| play_19a600b0
+		linkStyle 1 stroke:#a0a923,color:#a0a923
 			%% Start of the role '[role] gitea'
-			play_e782040d --> |"1 "| role_f8d9e89a
-			linkStyle 2 stroke:#02ca25,color:#02ca25
-			role_f8d9e89a(["[role] gitea"])
-			style role_f8d9e89a fill:#02ca25,color:#ffffff,stroke:#02ca25
+			play_19a600b0 --> |"1 "| role_c8e85314
+			linkStyle 2 stroke:#a0a923,color:#a0a923
+			role_c8e85314(["[role] gitea"])
+			style role_c8e85314 fill:#a0a923,color:#ffffff,stroke:#a0a923
 			%% End of the role '[role] gitea'
 		%% End of the play 'play #2 (Gitea personnal instance): 1'
+		%% Start of the play 'play #3 (Gitea action runner): 1'
+		play_4261af48["play #3 (Gitea action runner): 1"]
+		style play_4261af48 stroke:#0701cb,fill:#0701cb,color:#ffffff
+		playbook_d8fd15ca --> |"3"| play_4261af48
+		linkStyle 3 stroke:#0701cb,color:#0701cb
+		%% End of the play 'play #3 (Gitea action runner): 1'
 	%% End of the playbook './playbook.yaml'
 
 ```
