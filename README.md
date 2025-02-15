@@ -52,41 +52,41 @@ title: "My super-well-designed Ansible mess"
 %%{ init: { "flowchart": { "curve": "bumpX" } } }%%
 flowchart LR
 	%% Start of the playbook './playbook.yaml'
-	playbook_70147e72("./playbook.yaml")
+	playbook_9fd6921e("./playbook.yaml")
 		%% Start of the play 'play #1 (Get init process name): 4'
-		play_82de7cd2["play #1 (Get init process name): 4"]
-		style play_82de7cd2 stroke:#4d0ac2,fill:#4d0ac2,color:#ffffff
-		playbook_70147e72 --> |"1"| play_82de7cd2
-		linkStyle 0 stroke:#4d0ac2,color:#4d0ac2
+		play_43e08b53["play #1 (Get init process name): 4"]
+		style play_43e08b53 stroke:#6e2aa2,fill:#6e2aa2,color:#ffffff
+		playbook_9fd6921e --> |"1"| play_43e08b53
+		linkStyle 0 stroke:#6e2aa2,color:#6e2aa2
 		%% End of the play 'play #1 (Get init process name): 4'
 		%% Start of the play 'play #2 (Gitea personnal instance): 1'
-		play_9cdacf44["play #2 (Gitea personnal instance): 1"]
-		style play_9cdacf44 stroke:#0dbf48,fill:#0dbf48,color:#ffffff
-		playbook_70147e72 --> |"2"| play_9cdacf44
-		linkStyle 1 stroke:#0dbf48,color:#0dbf48
+		play_6d4593f7["play #2 (Gitea personnal instance): 1"]
+		style play_6d4593f7 stroke:#2483a8,fill:#2483a8,color:#ffffff
+		playbook_9fd6921e --> |"2"| play_6d4593f7
+		linkStyle 1 stroke:#2483a8,color:#2483a8
 			%% Start of the role '[role] gitea'
-			play_9cdacf44 --> |"1 "| role_4a367069
-			linkStyle 2 stroke:#0dbf48,color:#0dbf48
-			role_4a367069(["[role] gitea"])
-			style role_4a367069 fill:#0dbf48,color:#ffffff,stroke:#0dbf48
+			play_6d4593f7 --> |"1 "| role_552bcdb0
+			linkStyle 2 stroke:#2483a8,color:#2483a8
+			role_552bcdb0(["[role] gitea"])
+			style role_552bcdb0 fill:#2483a8,color:#ffffff,stroke:#2483a8
 			%% End of the role '[role] gitea'
 		%% End of the play 'play #2 (Gitea personnal instance): 1'
 		%% Start of the play 'play #3 (Gitea action runner): 1'
-		play_91baa20f["play #3 (Gitea action runner): 1"]
-		style play_91baa20f stroke:#28a491,fill:#28a491,color:#ffffff
-		playbook_70147e72 --> |"3"| play_91baa20f
-		linkStyle 3 stroke:#28a491,color:#28a491
+		play_a615e5ae["play #3 (Gitea action runner): 1"]
+		style play_a615e5ae stroke:#cc7700,fill:#cc7700,color:#ffffff
+		playbook_9fd6921e --> |"3"| play_a615e5ae
+		linkStyle 3 stroke:#cc7700,color:#cc7700
 			%% Start of the role '[role] go'
-			play_91baa20f --> |"1 "| role_bff3c292
-			linkStyle 4 stroke:#28a491,color:#28a491
-			role_bff3c292(["[role] go"])
-			style role_bff3c292 fill:#28a491,color:#ffffff,stroke:#28a491
+			play_a615e5ae --> |"1 "| role_466a7b4d
+			linkStyle 4 stroke:#cc7700,color:#cc7700
+			role_466a7b4d(["[role] go"])
+			style role_466a7b4d fill:#cc7700,color:#ffffff,stroke:#cc7700
 			%% End of the role '[role] go'
 			%% Start of the role '[role] act_runner'
-			play_91baa20f --> |"2 "| role_dc8db591
-			linkStyle 5 stroke:#28a491,color:#28a491
-			role_dc8db591(["[role] act_runner"])
-			style role_dc8db591 fill:#28a491,color:#ffffff,stroke:#28a491
+			play_a615e5ae --> |"2 "| role_8f6f9f57
+			linkStyle 5 stroke:#cc7700,color:#cc7700
+			role_8f6f9f57(["[role] act_runner"])
+			style role_8f6f9f57 fill:#cc7700,color:#ffffff,stroke:#cc7700
 			%% End of the role '[role] act_runner'
 		%% End of the play 'play #3 (Gitea action runner): 1'
 	%% End of the playbook './playbook.yaml'
