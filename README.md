@@ -52,47 +52,53 @@ title: "My super-well-designed Ansible mess"
 %%{ init: { "flowchart": { "curve": "bumpX" } } }%%
 flowchart LR
 	%% Start of the playbook './playbook.yaml'
-	playbook_79ead005("./playbook.yaml")
+	playbook_90361684("./playbook.yaml")
 		%% Start of the play 'play #1 (Get init process name): 4'
-		play_6c311acf["play #1 (Get init process name): 4"]
-		style play_6c311acf stroke:#8e603e,fill:#8e603e,color:#ffffff
-		playbook_79ead005 --> |"1"| play_6c311acf
-		linkStyle 0 stroke:#8e603e,color:#8e603e
+		play_d88f6aa0["play #1 (Get init process name): 4"]
+		style play_d88f6aa0 stroke:#16a7b6,fill:#16a7b6,color:#ffffff
+		playbook_90361684 --> |"1"| play_d88f6aa0
+		linkStyle 0 stroke:#16a7b6,color:#16a7b6
 		%% End of the play 'play #1 (Get init process name): 4'
 		%% Start of the play 'play #2 (Mysql gitea database): 1'
-		play_8fe9a748["play #2 (Mysql gitea database): 1"]
-		style play_8fe9a748 stroke:#3001cb,fill:#3001cb,color:#ffffff
-		playbook_79ead005 --> |"2"| play_8fe9a748
-		linkStyle 1 stroke:#3001cb,color:#3001cb
+		play_80ffd5fb["play #2 (Mysql gitea database): 1"]
+		style play_80ffd5fb stroke:#348998,fill:#348998,color:#ffffff
+		playbook_90361684 --> |"2"| play_80ffd5fb
+		linkStyle 1 stroke:#348998,color:#348998
+			%% Start of the role '[role] geerlingguy.mysql'
+			play_80ffd5fb --> |"1 "| role_0b6b4a30
+			linkStyle 2 stroke:#348998,color:#348998
+			role_0b6b4a30(["[role] geerlingguy.mysql"])
+			style role_0b6b4a30 fill:#348998,color:#ffffff,stroke:#348998
+			%% End of the role '[role] geerlingguy.mysql'
 		%% End of the play 'play #2 (Mysql gitea database): 1'
 		%% Start of the play 'play #3 (Gitea action runner): 1'
-		play_aa23e2e9["play #3 (Gitea action runner): 1"]
-		style play_aa23e2e9 stroke:#30409c,fill:#30409c,color:#ffffff
-		playbook_79ead005 --> |"3"| play_aa23e2e9
-		linkStyle 2 stroke:#30409c,color:#30409c
+		play_46cd6bd6["play #3 (Gitea action runner): 1"]
+		style play_46cd6bd6 stroke:#03c940,fill:#03c940,color:#ffffff
+		playbook_90361684 --> |"3"| play_46cd6bd6
+		linkStyle 3 stroke:#03c940,color:#03c940
 			%% Start of the role '[role] go'
-			play_aa23e2e9 --> |"1 "| role_0e88b7f5
-			linkStyle 3 stroke:#30409c,color:#30409c
-			role_0e88b7f5(["[role] go"])
-			style role_0e88b7f5 fill:#30409c,color:#ffffff,stroke:#30409c
+			play_46cd6bd6 --> |"1 "| role_0ff4c388
+			linkStyle 4 stroke:#03c940,color:#03c940
+			role_0ff4c388(["[role] go"])
+			style role_0ff4c388 fill:#03c940,color:#ffffff,stroke:#03c940
 			%% End of the role '[role] go'
 			%% Start of the role '[role] act_runner'
-			play_aa23e2e9 --> |"2 "| role_ee87e923
-			linkStyle 4 stroke:#30409c,color:#30409c
-			role_ee87e923(["[role] act_runner"])
-			style role_ee87e923 fill:#30409c,color:#ffffff,stroke:#30409c
+			play_46cd6bd6 --> |"2 "| role_d20c53b4
+			linkStyle 5 stroke:#03c940,color:#03c940
+			role_d20c53b4(["[role] act_runner"])
+			style role_d20c53b4 fill:#03c940,color:#ffffff,stroke:#03c940
 			%% End of the role '[role] act_runner'
 		%% End of the play 'play #3 (Gitea action runner): 1'
 		%% Start of the play 'play #4 (Nginx reverse proxy): 1'
-		play_6ef56bfe["play #4 (Nginx reverse proxy): 1"]
-		style play_6ef56bfe stroke:#374395,fill:#374395,color:#ffffff
-		playbook_79ead005 --> |"4"| play_6ef56bfe
-		linkStyle 5 stroke:#374395,color:#374395
+		play_c226a73e["play #4 (Nginx reverse proxy): 1"]
+		style play_c226a73e stroke:#57755f,fill:#57755f,color:#ffffff
+		playbook_90361684 --> |"4"| play_c226a73e
+		linkStyle 6 stroke:#57755f,color:#57755f
 			%% Start of the role '[role] nginx-reverse-proxy'
-			play_6ef56bfe --> |"1 "| role_7791370c
-			linkStyle 6 stroke:#374395,color:#374395
-			role_7791370c(["[role] nginx-reverse-proxy"])
-			style role_7791370c fill:#374395,color:#ffffff,stroke:#374395
+			play_c226a73e --> |"1 "| role_765411cd
+			linkStyle 7 stroke:#57755f,color:#57755f
+			role_765411cd(["[role] nginx-reverse-proxy"])
+			style role_765411cd fill:#57755f,color:#ffffff,stroke:#57755f
 			%% End of the role '[role] nginx-reverse-proxy'
 		%% End of the play 'play #4 (Nginx reverse proxy): 1'
 	%% End of the playbook './playbook.yaml'
