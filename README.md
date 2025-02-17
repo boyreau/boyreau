@@ -91,6 +91,7 @@ Grafana (WIP)`"]
 ```
 
 <h3> And here is a graph of my ansible configuration </h3>
+
 ```mermaid
 ---
 title: "My super-well-designed Ansible mess"
