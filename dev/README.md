@@ -2,28 +2,6 @@
 
 <br/>
 
-<div style="display: inline;">
-<img width="2" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="Logo C"  />
-<img width="16" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="Logo Linux"  />
-<img width="18" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="Logo Bash"  />
-<img width="20" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="Logo Git"  />
-<img width="24" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="30" alt="Logo Ansible"  />
-<img width="40" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="30" alt="Logo GitHub Actions"  />
-<img width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Logo Docker"  />
-</div>
-
-| C | Linux | Shell | Git | Ansible | Actions | Docker |
-|---|---|---|---|---|---|---|
-
-<br/>
-
 ### Voici mes projets personnels les plus intéressants
 
  [Installation de Linux sur une Surface RT](https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true) | [Serveur DNS embarqué en pur C sur un ESP32](https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true)
@@ -52,7 +30,33 @@
 
 <br/>
 
-### Parcours scolaire
+### Les technologies qui j'apprécie le plus
+
+<br/>
+
+<div style="display: inline;">
+<img width="2" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="Logo C"  />
+<img width="16" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="Logo Linux"  />
+<img width="18" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="Logo Bash"  />
+<img width="20" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="Logo Git"  />
+<img width="24" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="30" alt="Logo Ansible"  />
+<img width="40" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="30" alt="Logo GitHub Actions"  />
+<img width="42" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Logo Docker"  />
+</div>
+
+| C | Linux | Shell | Git | Ansible | Actions | Docker |
+|---|---|---|---|---|---|---|
+
+<br/>
+
+### Mon parcours scolaire
 
  - 2019-2021
    - DUT Informatique - Diplôme universitaire de technologie en informatique
