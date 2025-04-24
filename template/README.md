@@ -1,31 +1,93 @@
-<h2 align="left">Hi 👋! My name is Arthur and I'm a DevOps, from France</h2>
+## Hi 👋! My name is Arthur and I'm a student
 
-###
+<br/>
 
-<h3> My technical stack </h3>
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="30" alt="Ansible logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="30" alt="GitHub Actions logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="Bash logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="Git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="C logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/archlinux/archlinux-original.svg" height="30" alt="Arch Linux logo"  />
-  <img width="12" />
+<img width="2" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="C logo"  />
+<img width="18" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="Arch Linux logo"  />
+<img width="20" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="Bash logo"  />
+<img width="24" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="Git logo"  />
+<img width="32" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="30" alt="Ansible logo"  />
+<img width="40" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="30" alt="GitHub Actions logo"  />
+<img width="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Docker logo"  />
+
+| C | Linux | Shell | Git | Ansible | Actions | Docker |
+|---|---|---|---|---|---|---|
+
+<br/>
+
+### Professional experiences
+
+ - 2021 
+    - Samdoc medical technologiese
+        - Back end developper, creation of a REST API in Go
+
+ - 2021-2023
+   - Caen la mer
+     - Web developper: creation of various applications in Django, JS and VB.NET
+     - System maintainer: monitoring and upgrades of various Linux servers
+     - Data aggregator: creation and monitoring of data pipeline to improvement HR processes
+     - Cyberattack: a violent attack forced us to shut everything down, draw an up-to-date map of the whole information system, and a global restructuration to improve security.
+  - 2023-now
+    - Freelance developper
+      - Mobile and web projects mostly
+
+<br/>
+
+### Below are my most interesting/challenging personnal projects
+
+<br/>
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); text-align: center;">
+  <div>
+    <img src="https://github.com/boyreau/boyreau/imgs/Linux Surface RT.jpg"/>
+    <a href="https://github.com/boyreau/Linux_Surface_RT">
+      <p> Installing Linux on a Microsoft Surface RT </p>
+    </a>
+  </div>
+  
+  <div>
+    <a href="https://github.com/boyreau/esp32-dns">
+      <p> Pure C embedded DNS server on an ESP32 </p>
+    </a>
+  </div>
+  
+  <div>
+    <a href="https://github.com/boyreau/infra">
+      <p> CI infrastructure for my C projects </p>
+    </a>
+  </div>
+  
+  <div>
+    <p> Coming soon - A pure-C UEFI bootloader </p>
+  </div>
+  
+  <div style="grid-column: span 2;">
+    <a href="https://codeberg.org/zo">
+      <p> A lot of C </p>
+    </a>
+  </div>
 </div>
 
-###
+<br/>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=boyreau&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=false&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=boyreau&locale=en&hide_title=false&count_private=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&" height="150" alt="languages graph"  />
-</div>
+### Scholarship
+
+ - 2019-2021
+   - DUT Informatique - 2-years CS degree
+ - 2023-now
+   - 42 school 
+     - self-paced CS school
+     - validated in 8 months
+
+
+<br/>
 
 <h2> Meet me on </h2>
 
@@ -40,55 +102,3 @@
     <img src="https://img.shields.io/static/v1?message=Codeberg&logo=codeberg&label=&color=4793CC&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="codeberg logo"  />
   </a>
 </div>
-
-<h2> I am currently deploying my own tools to improve my C codebase </h2>
-
-<br clear="both">
-
-```mermaid
-architecture-beta
-    group safe(database)[safe]
-    group internal(server)[internal]
-    group external(internet)[external]
-
-        service mysql (database)[mysql] in safe
-
-        service gitea (disk)[gitea] in internal
-        service action_runner (server)[action_runner] in internal
-
-        service nginx (internet)[nginx] in external
-
-    gitea:R --> L:mysql
-    nginx:R --> L:gitea
-    action_runner:B --> T:gitea
-```
-
-###
-
-<h3> This architecture will help me achieve the following workflow </h3>
-
-```mermaid
----
-title: My C devops pipeline
----
-flowchart LR
-    Develop["`**Develop**
-Vim, Clangd, Git`"]
-    Store_code["`**Version**
-Gitea`"]
-    Build["`**Build**
-Github Actions, GNU Make, LLVM Clang`"]
-    Test["`**Test**
-LLVM Toolchain, GNU Make`"]
-    Store_artifacts["`**Store**
-Conan (WIP)`"]
-    Deploy["`**Deploy**
-Ansible, Docker`"]
-    Monitor["`**Monitor**
-Grafana (WIP)`"]
-
-    Develop --> Store_code --> Build --> Test --> Store_artifacts --> Deploy --> Monitor
-```
-
-<h3> And here is a graph of my ansible configuration </h3>
-
