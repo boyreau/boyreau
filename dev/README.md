@@ -1,6 +1,9 @@
 ## Bonjour 👋 ! Je m'appelle Arthur et je suis un touche-à-tout passioné
 
-[![LinkedIn](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg)](https://www.linkedin.com/in/arthur-b-346985283)
+<a href="https://www.linkedin.com/in/arthur-b-346985283">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="32"/>
+</a>
+
 
 <br/>
 
