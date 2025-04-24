@@ -44,7 +44,7 @@
 
 <br/>
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); text-align: center; row-gap: 2rem;">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); text-align: center; row-gap: 2rem; column-gap: 1rem;">
   <div>
     <a href="https://github.com/boyreau/Linux_Surface_RT">
       <p> Installing Linux on a Microsoft Surface RT </p>
