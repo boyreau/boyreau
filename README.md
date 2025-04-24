@@ -1,17 +1,22 @@
 ## Bonjour 👋 ! Je m'appelle Arthur et je suis un touche-à-tout passioné
 
+<a href="https://www.linkedin.com/in/arthur-b-346985283">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="32"/>
+</a>
+
+
 <br/>
 
 ### Voici mes projets personnels les plus intéressants
 
  [Installation de Linux sur une Surface RT](https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true) | [Serveur DNS embarqué en pur C sur un ESP32](https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true)
 :---------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:
-![Surface RT running Linux](https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true)                 |  ![ESP32 and DNS admin panel](https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true)
+<img alt="Surface RT running Linux" src="https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true" width="350"/> |  <img alt="ESP32 and DNS admin panel" src="https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true"  width="350"/>
 
 
 <br/>
 
-### Expériences professionnelles
+### Mes expériences professionnelles
 
  - 2021 
     - Samdoc technologies médicales
