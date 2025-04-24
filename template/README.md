@@ -44,17 +44,18 @@
 
 <br/>
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); text-align: center;">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); text-align: center; row-gap: 2rem;">
   <div>
-    <img src="https://github.com/boyreau/boyreau/imgs/Linux Surface RT.jpg"/>
     <a href="https://github.com/boyreau/Linux_Surface_RT">
       <p> Installing Linux on a Microsoft Surface RT </p>
+      <img src="https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true"/>
     </a>
   </div>
   
   <div>
     <a href="https://github.com/boyreau/esp32-dns">
       <p> Pure C embedded DNS server on an ESP32 </p>
+      <img src="https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true"/>
     </a>
   </div>
   
