@@ -7,15 +7,6 @@
 
 <br/>
 
-### Mes projets personnels du moment
-
- [Installation de Linux sur une Surface RT](https://github.com/boyreau/linux_surface_rt) | [Serveur DNS embarqué en pur C sur un ESP32](https://github.com/boyreau/esp32-dns)
-:---------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:
-<img alt="Surface RT running Linux" src="https://github.com/boyreau/linux_surface_rt" width="350"/> |  <img alt="ESP32 and DNS admin panel" src="https://github.com/boyreau/esp32-dns"  width="350"/>
-
-
-<br/>
-
 ### Mes expériences professionnelles
 
  - 2021 
@@ -32,6 +23,15 @@
  - 2023-aujourd'hui
     - Développeur freelance
       - Projets web et mobile principalement
+
+<br/>
+
+### Mes projets personnels du moment
+
+ [Installation de Linux sur une Surface RT](https://github.com/boyreau/linux_surface_rt) | [Serveur DNS embarqué en pur C sur un ESP32](https://github.com/boyreau/esp32-dns)
+:---------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:
+<img alt="Surface RT running Linux" src="/imgs/linux-surface-rt-qr.png" /> |  <img alt="ESP32 and DNS admin panel" src="/imgs/esp32-dns-qr.png"  width="350"/>
+
 
 <br/>
 
