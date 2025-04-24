@@ -11,7 +11,7 @@
 
  [Installation de Linux sur une Surface RT](https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true) | [Serveur DNS embarqué en pur C sur un ESP32](https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true)
 :---------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:
-![Surface RT running Linux](https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true)                 |  ![ESP32 and DNS admin panel](https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true)
+<img alt="Surface RT running Linux" src="https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true" /> |  <img alt="ESP32 and DNS admin panel" src="https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true" />
 
 
 <br/>
