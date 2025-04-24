@@ -2,6 +2,7 @@
 
 <br/>
 
+<div style="display: inline;">
 <img width="2" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="Logo C"  />
 <img width="18" />
@@ -16,6 +17,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="30" alt="Logo GitHub Actions"  />
 <img width="50" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Logo Docker"  />
+</div>
 
 | C | Linux | Shell | Git | Ansible | Actions | Docker |
 |---|---|---|---|---|---|---|
