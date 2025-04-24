@@ -1,21 +1,21 @@
-## Bonjour 👋 ! Je m'appelle Arthur et je suis étudiant
+## Bonjour 👋 ! Je m'appelle Arthur et je suis un touche-à-tout passioné
 
 <br/>
 
 <div style="display: inline;">
 <img width="2" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="Logo C"  />
-<img width="18" />
+<img width="16" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="Logo Linux"  />
-<img width="20" />
+<img width="18" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="Logo Bash"  />
-<img width="24" />
+<img width="20" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="Logo Git"  />
-<img width="32" />
+<img width="24" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="30" alt="Logo Ansible"  />
 <img width="40" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="30" alt="Logo GitHub Actions"  />
-<img width="50" />
+<img width="42" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Logo Docker"  />
 </div>
 
@@ -43,7 +43,7 @@
 
 <br/>
 
-### Voici mes projets personnels les plus intéressants/défis
+### Voici mes projets personnels les plus intéressants
 
 <br/>
 
@@ -76,7 +76,7 @@
 
 <br/>
 
-<h2> Retrouve-moi sur </h2>
+<h2> Retrouvez-moi sur </h2>
 
 <div align="center">
   <a href="mailto:bnzlvosnb@mozmail.com">
