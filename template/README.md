@@ -2,6 +2,7 @@
 
 <br/>
 
+<div style="display: inline;">
 <img width="2" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="C logo"  />
 <img width="18" />
@@ -16,6 +17,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="30" alt="GitHub Actions logo"  />
 <img width="50" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="Docker logo"  />
+</div>
 
 | C | Linux | Shell | Git | Ansible | Actions | Docker |
 |---|---|---|---|---|---|---|
@@ -32,7 +34,7 @@
    - Caen la mer
      - Web developper: creation of various applications in Django, JS and VB.NET
      - System maintainer: monitoring and upgrades of various Linux servers
-     - Data aggregator: creation and monitoring of data pipeline to improvement HR processes
+     - Data aggregator: creation and monitoring of data pipeline to improveme HR processes
      - Cyberattack: a violent attack forced us to shut everything down, draw an up-to-date map of the whole information system, and a global restructuration to improve security.
   - 2023-now
     - Freelance developper
@@ -48,30 +50,14 @@
   <div>
     <a href="https://github.com/boyreau/Linux_Surface_RT">
       <p> Installing Linux on a Microsoft Surface RT </p>
-      <img src="https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true"/>
+      <img height="350px" src="https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true"/>
     </a>
   </div>
   
   <div>
     <a href="https://github.com/boyreau/esp32-dns">
       <p> Pure C embedded DNS server on an ESP32 </p>
-      <img src="https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true"/>
-    </a>
-  </div>
-  
-  <div>
-    <a href="https://github.com/boyreau/infra">
-      <p> CI infrastructure for my C projects </p>
-    </a>
-  </div>
-  
-  <div>
-    <p> Coming soon - A pure-C UEFI bootloader </p>
-  </div>
-  
-  <div style="grid-column: span 2;">
-    <a href="https://codeberg.org/zo">
-      <p> A lot of C </p>
+      <img height="350px" src="https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true"/>
     </a>
   </div>
 </div>
