@@ -1,5 +1,7 @@
 ## Bonjour 👋 ! Je m'appelle Arthur et je suis un touche-à-tout passioné
 
+[![LinkedIn](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg)](https://www.linkedin.com/in/arthur-b-346985283)
+
 <br/>
 
 ### Voici mes projets personnels les plus intéressants
@@ -11,7 +13,7 @@
 
 <br/>
 
-### Expériences professionnelles
+### Mes expériences professionnelles
 
  - 2021 
     - Samdoc technologies médicales
