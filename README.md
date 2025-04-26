@@ -9,7 +9,7 @@
 
 ### Voici mes projets personnels les plus intéressants
 
- [Installation de Linux sur une Surface RT](https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true) | [Serveur DNS embarqué en pur C sur un ESP32](https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true)
+ [Installation de Linux sur une Surface RT](https://github.com/boyreau/linux_surface_rt) | [Serveur DNS embarqué en pur C sur un ESP32](https://github.com/boyreau/esp32-dns)
 :---------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:
 <img alt="Surface RT running Linux" src="https://github.com/boyreau/boyreau/blob/main/imgs/Linux_Surface_RT.jpg?raw=true" width="350"/> |  <img alt="ESP32 and DNS admin panel" src="https://github.com/boyreau/boyreau/blob/main/imgs/ESP32_DNS.jpg?raw=true"  width="350"/>
 
